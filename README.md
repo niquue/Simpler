@@ -24,7 +24,8 @@ Break down the task into simpler steps that helps you finish the goal.
 - SQLite3
 - PyCharm
 - Node.js
-- Bulma (Framework)
+- Bulma CSS
+- Axios
 - Netlify
 - VSCode
 
