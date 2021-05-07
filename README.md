@@ -1,6 +1,6 @@
 # Simpler
 Comp426 Final Project
-Visit here: [simplertask.netlify.app]
+Visit here: http://simplertask.netlify.app
 
 ### A simple productivity/todo app for getting things done.
 
