@@ -16,6 +16,7 @@ Break down the task into simpler steps that helps you finish the goal.
 ## Technologies used:
 - Javascript
 - HTML/CSS
+- JQuery
 - Python / Python Bottle
 - Node.js
 - Bulma (Framework)
