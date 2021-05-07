@@ -1,11 +1,10 @@
-# Simpler
+# Simpler - A simple productivity/todo app for getting things done.
 Comp426 Final Project
 
 Author: Dominique Lomax
 
 Visit here: http://simplertask.netlify.app
 
-### A simple productivity/todo app for getting things done.
 
 ## What is Simpler?
 ### A way to breakdown tasks to achieve efficiency
