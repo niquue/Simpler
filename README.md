@@ -1,5 +1,7 @@
 # Simpler
 Comp426 Final Project
+Author: Dominique Lomax
+
 Visit here: http://simplertask.netlify.app
 
 ### A simple productivity/todo app for getting things done.
@@ -18,6 +20,28 @@ Break down the task into simpler steps that helps you finish the goal.
 - HTML/CSS
 - JQuery
 - Python / Python Bottle
+- pythonanywhere
+- SQLite3
+- PyCharm
 - Node.js
 - Bulma (Framework)
 - Netlify
+- VSCode
+
+
+## APIs used:
+### Openweather API (https://openweathermap.org/api)
+- Collects and processes weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations.
+- Access current weather data for any location including over 200,000 cities
+
+### Quotable API (https://github.com/lukePeavey/quotable)
+- API includes over 2000 quotes. Purpose used in this project was to give users a bit of inspiration while making a task.
+
+### Bored API (https://www.boredapi.com/)
+- Retrieves random things you can do. Purpose in this app was to give suggestions to the user on things they could possibly add as a task.
+
+### Coindesk Bitcoin API (https://www.coindesk.com/coindesk-api)
+- Retrieves the current price of Bitocin in various currencies. Purpose was to inspire users to get involved or think about Crypto (and contribute to Cardano)
+
+### Cocktail API (https://www.thecocktaildb.com/api.php)
+- Retrieves random drinks and includes a JSON object with ingredients and instructions to make drink. Purpose of this API was to serve as some type of reward for completing tasks by taking a break with a drink.
