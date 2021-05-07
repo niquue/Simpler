@@ -1,0 +1,24 @@
+{
+  "name": "simpler",
+  "version": "1.0.0",
+  "description": "Comp 426 Final Project",
+  "main": "script.js",
+  "dependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niquue/Simpler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niquue/Simpler/issues"
+  },
+  "homepage": "https://github.com/niquue/Simpler#readme"
+}

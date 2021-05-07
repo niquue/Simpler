@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Simpler.</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles.css" />
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js'></script>
+        <script src="script.js" type="module"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/config.js" type='text/javascript'></script>
+
+    </head>
+
+    <body>
+        <div id="root">
+            <section class="hero is-dark">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <h1 class="title has-text-info is-italic is-family-primary">Welcome to Simpler</h1>
+                    </div>
+                    <div class="navbar-end is-right">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <div class="button is-danger logout">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                    </span>
+                                    <strong id="logoutbutton">Logout</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="columns is-multiline justify-center">
+                        <div class="column" id="api1">
+                            <figure class="image is-128x128">
+                                <img src="images/weather.png">
+                            </figure>
+                            <!--- API 1 -->
+                            <div class="column" id="apitext">
+
+                            </div>
+
+                        </div>
+                        <!--- API 2 -->
+                        <div class="column" id="api2">
+                            <figure class="image is-128x128">
+                                <img src="images/zen.png">
+                            </figure>
+                            <div class="column" id="apitext2">
+
+                            </div>
+                        </div>
+
+                        <!-- API 3-->
+                        <div class="column" id="api3">
+                            <figure class="image is-128x128">
+                                <img src="images/task.png">
+                            </figure>
+                            <div class="column" id="apitext3">
+
+                            </div>
+                        </div>
+
+                        <div class="column" id="api4">
+                            <figure class="image is-128x128">
+                                <img src="images/bitcoin.png">
+                            </figure>
+                            <div class="column" id="apitext4">
+
+                            </div>
+                        </div>
+
+                        <div class="column" id="api5">
+                            <figure class="image is-128x128">
+                                <img src="images/drink.png">
+                            </figure>
+                            <div class="column" id="apitext5">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section">
+                <div class="columns is-centered">
+                    <div class="column is-one-quarter">
+                        <div class="field has-addons">
+                            <div class="columns content is-centered">
+                                <div class="control has-icons-left">
+                                    <input name="task" class="input is-info is-medium" id="tasktext" type="text" maxlength="50" placeholder="Add task... ">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-tasks"></i>
+                                    </span>
+                                </div>
+                                <div class="control">
+                                    <button type="submit" class="button is-link is-medium" id="submitnewtask">Submit Task</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="container">
+                <div class="title">
+                    <h1 class="title has-text-centered">Tasks</h1>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-7">
+                        <div class="list">
+                            <ul id="categorybegin">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>

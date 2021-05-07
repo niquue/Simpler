@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Signup to Simpler.</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js'></script>
+        <script src="script.js" type="module"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+        <div id="root">
+            <section class="hero is-dark is-fullheight">
+                <header class="navbar">
+                    <div class="container">
+                        <div id="navbarMenuHeroC" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item is-active" id="homepage" href="index.html">
+                                    Home
+                                </a>
+                                <a class="navbar-item" id="aboutpage" href="about.html">
+                                    About
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+    
+                <div class="hero-body">
+                    <div class="container">
+                
+                        <div class="columns is-centered">
+                            <div class="column is-4-desktop is-4-widescreen">
+                                <form action="" class="box">
+                                    <!--Username-->
+                                    <div class="field">
+                                        <label class="label is-medium">Create a Username</label>
+                                        <div class="control has-icons-left">
+                                            <input class="input is-medium" type="" placeholder="Enter Username..." id="signuser" required>
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-user has-text-link"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--Password-->
+                                    <div class="field">
+                                        <label class="label is-medium">Create a Passsword</label>
+                                        <div class="control has-icons-left">
+                                            <input class="input is-medium" type="password" placeholder="Enter Password..." id="signpass" required>
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-lock has-text-black"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--Buttons-->
+                                    <div class="field is-centered has-text-centered">
+                                        <button class="button is-info is-medium" id="signupbutton">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-user-plus"></i>
+                                            </span>
+                                            <span>Sign Up</span>
+    
+                                        </button>
+                                        <a class="button is-danger is-medium" href="index.html">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-home"></i>
+                                            </span>
+                                            <span>Go to the homepage</span>
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+    
+                        </div>
+                        <div id="signmessage">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </body>
+</html>

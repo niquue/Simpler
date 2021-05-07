@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Login to Simpler.</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js'></script>
+        <script src="script.js" type="module"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+        <div id="root">
+            <section class="hero is-dark is-fullheight">
+                <header class="navbar">
+                    <div class="container">
+                        <div id="navbarMenuHeroC" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item is-active" id="homepage" href="index.html">
+                                    Home
+                                </a>
+                                <a class="navbar-item" id="aboutpage" href="about.html">
+                                    About
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+    
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-centered has-text-centered is-size-2">Login to Simpler</h1>
+                        <h1 class="subtitle is-centered has-text-centered is-italic">The simple todo/productivity app to get stuff done.</h3>
+                        <div class="columns is-centered">
+                            <div class="column is-4-desktop is-4-widescreen">
+                                <form class="box">
+                                    <!--Username-->
+                                    <div class="field">
+                                        <label class="label is-medium">Username</label>
+                                        <div class="control has-icons-left">
+                                            <input class="input is-medium" type="text" placeholder="Enter Username..." id="username" required>
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-user has-text-link"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--Password-->
+                                    <div class="field">
+                                        <label class="label is-medium">Passsword</label>
+                                        <div class="control has-icons-left">
+                                            <input class="input is-medium" type="password" placeholder="Enter Password..."  id="password" required>
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-lock has-text-black"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--Buttons-->
+                                    <div class="field is-centered has-text-centered">
+                                        <button class="button is-primary is-medium" type="submit" id="loginButton">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-sign-in-alt"></i>
+                                            </span>
+                                            <span>Login</span>
+    
+                                        </button>
+                                        <a class="button is-info is-medium" href="signup.html">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-user-plus"></i>
+                                            </span>
+                                            <span>Sign Up</span>
+                                        </a>
+    
+                                        </button>
+                                        <!--
+                                        <a class="button is-info is-medium" href="signup.html">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-user-plus"></i>
+                                            </span>
+                                            <span>Sign Up</span>
+                                        </a>
+                                    -->
+                                    
+                                    </div>
+                                    <div class="field is-centered has-text-centered">
+                                        <button class="button is-link is-medium" id="delete-button">
+                                            <span>This button does nothing, or does it...?</span>
+                                            <span class="icon is-small">
+                                                <i class="fas fa-user-secret"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                
+                                </form>
+                            </div>
+    
+                        </div>
+                        <div class="message">
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+    
+            </section>
+        </div>
+    </body>
+</html>

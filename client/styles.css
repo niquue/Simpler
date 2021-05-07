@@ -1,0 +1,21 @@
+.tags {
+    margin-bottom: 0px !important;
+}
+
+.tag {
+    float: left;
+}
+
+.tag.is-delete {
+    float: right;
+}
+
+.tag.is-success {
+    float:right;
+    margin-left: 10px;
+}
+
+.tag.is-info {
+    float:right;
+    margin-left: 10px;
+}
