@@ -1,11 +1,12 @@
 
 const USERID = localStorage.getItem("username");
+const API_KEY = localStorage.getItem("key");
 
 
 //  ------- WEATHER API -----------
 export function weather( cityID ) {
-    var key = config.MY_API_KEY;
-    fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&units=imperial' + '&appid=' + key)  
+    
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&units=imperial' + '&appid=' + API_KEY)  
     .then(function(resp) { return resp.json() }) // Convert data to json
     .then(function(data) {
         drawWeather(data); // Call drawWeather

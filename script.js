@@ -26,6 +26,7 @@ export async function handleLogin(event) {
             setTimeout(() => {
                 window.location.replace('client/index.html');
                 window.localStorage.setItem("username", user);
+                window.localStorage.setItem("key", '4f3136d4d40f09297210b987b9dca1eb');
             }, 4000);
         } else {
             $message.append(`<div class="notification is-danger has-text-centered">
