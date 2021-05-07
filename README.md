@@ -1,5 +1,6 @@
 # Simpler
 Comp426 Final Project
+
 Author: Dominique Lomax
 
 Visit here: http://simplertask.netlify.app
