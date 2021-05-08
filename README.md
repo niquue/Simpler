@@ -16,6 +16,16 @@ Example: "Make a website" This is too broad and doesn't define anything or have 
 Break down the task into simpler steps that helps you finish the goal.
 
 ## Technologies used:
+[<img src="https://i.postimg.cc/wT7GyPjn/javascript.png" width="100" height="100">](https://javascript.com)
+[<img src="https://i.postimg.cc/rsPcGrWT/html.png" width="100" height="100">](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[<img src="https://i.postimg.cc/Hs8CDjXJ/css.png" width="100" height="100">](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[<img src="https://i.postimg.cc/FsN0wk2p/python.png" width="100" height="100">](https://python.org)
+[<img src="https://i.postimg.cc/7Zf1NGGL/bottle.png" width="100" height="100">](http://bottlepy.org/docs/dev/?ref=stackshare)
+[<img src="https://i.postimg.cc/x1Vhw597/nodejs.png" width="100" height="100">](https://nodejs.org)
+[<img src="https://i.postimg.cc/mDF2dVLD/bulma-logo.png" width="100" height="100">](https://bulma.io/)
+[<img src="https://i.postimg.cc/tC6W1tF9/netlify.png" width="100" height="100">](https://www.netlify.com/)
+[<img src="https://i.postimg.cc/7YbTvvxs/vscode.png" width="100" height="100">](https://code.visualstudio.com/)
+
 - Javascript
 - HTML/CSS
 - JQuery
