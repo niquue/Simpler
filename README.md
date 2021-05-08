@@ -1,5 +1,5 @@
 # Simpler - A simple productivity/todo app for getting things done.
-Comp426 Final Project
+UNC COMP-426 Final Project
 
 Author: Dominique Lomax
 
