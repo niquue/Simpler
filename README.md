@@ -19,6 +19,7 @@ Break down the task into simpler steps that helps you finish the goal.
 [<img src="https://i.postimg.cc/wT7GyPjn/javascript.png" width="100" height="100">](https://javascript.com)
 [<img src="https://i.postimg.cc/rsPcGrWT/html.png" width="100" height="100">](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [<img src="https://i.postimg.cc/Hs8CDjXJ/css.png" width="100" height="100">](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[<img src="https://i.postimg.cc/FsJVLvm2/jquery.png" width="100" height="100">](https://jquery.com)
 [<img src="https://i.postimg.cc/FsN0wk2p/python.png" width="100" height="100">](https://python.org)
 [<img src="https://i.postimg.cc/7Zf1NGGL/bottle.png" width="100" height="100">](http://bottlepy.org/docs/dev/?ref=stackshare)
 [<img src="https://i.postimg.cc/x1Vhw597/nodejs.png" width="100" height="100">](https://nodejs.org)
