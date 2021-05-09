@@ -40,6 +40,8 @@ Break down the task into simpler steps that helps you finish the goal.
 - Netlify
 - VSCode
 
+Python was used to create a backend database system using SQLite3 and an ORM Layer. Javascript/Jquery/HTML/CSS were used for the front-end.
+
 
 ## APIs used:
 ### Openweather API (https://openweathermap.org/api)
